@@ -1,0 +1,12 @@
+.error{
+    text-align: center;
+    width: 400px;
+    margin: 220px auto;
+}
+.error > p{
+    font-weight: 900;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

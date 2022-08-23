@@ -1,0 +1,30 @@
+.movies{
+    width: 100%;
+    height: max-content;
+    background-color: #555555;
+}
+.movie-search{
+    background-color: rgb(235, 11, 11);
+    height: 60px;
+    position: sticky;
+    top: 0;
+}
+.movie-search > input{
+    width: 30%;
+    float: right;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+}
+.input-bar{
+    background-color: #555555;
+    color: white;
+    font-size: 20px;
+}
+.movies-data{
+    margin-top: 40px;
+}
+.to-home{
+    width: 50px;
+    margin: 10px;
+}

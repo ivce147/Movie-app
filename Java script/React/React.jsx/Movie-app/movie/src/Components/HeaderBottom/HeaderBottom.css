@@ -1,0 +1,49 @@
+.container-bottom{
+    width: 100%;
+    position: relative;
+    top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-bottom{
+    position: absolute;
+    bottom: 68px;
+    width: 80%;
+    height: 80px;
+    background-color: grey;
+    border-radius: 5px;
+}
+.section{
+    display: flex;
+    justify-content: left;
+    font-size: 18px;
+    padding: 28px;
+    margin-left: 60px;
+    gap: 100px;
+}
+.color:hover{
+    color: #c22727;
+}
+  @media only screen and (max-width: 1440px) {
+    .container-bottom {
+        width: 1320px;
+    }
+  }
+@media only screen and (max-width: 1024px) {
+    .container-bottom {
+        width: 1140px;
+    }
+    
+  }
+@media only screen and (max-width: 768px) {
+    .container-bottom {
+        width: 1140px;
+    }
+    
+  }
+@media only screen and (max-width: 424px) {
+    .container-bottom {
+        width: 1140px;
+    }
+  }

@@ -1,0 +1,67 @@
+.card{
+    width: 100%;
+}
+.cart:hover .pic{
+    transform: scale(1.1);
+}
+.cart{
+    width: 300px;
+}
+.pic{
+    border-radius: 5%;
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+}
+.cart-text{
+    padding: 15px 5px 20px 5px;
+}
+.btn{
+    border-radius: 10px;
+    opacity: 0.5;
+    background: none;
+}
+.btn:hover{
+    color: #c22727;
+    opacity: 1;
+}
+@media only screen and (max-width: 1440px) {
+    .pic{
+        width: 250px;
+        height: 280px;
+        margin: 0 30px 5px -10px;
+    }
+    .cart-text{
+        margin-left: -10px;
+    }
+  }
+@media only screen and (max-width: 1024px) {
+    .pic{
+        width: 230px;
+        height: 250px;
+        margin: 0 30px 5px -25px;
+    }
+    .cart-text{
+        margin-left: -25px;
+    }
+  }
+@media only screen and (max-width: 768px) {
+    .pic{
+        width: 230px;
+        height: 250px;
+        margin: 0 30px 5px -25px;
+    }
+    .cart-text{
+        margin-left: -25px;
+    }
+  }
+@media only screen and (max-width: 425px) {
+    .pic{
+        width: 230px;
+        height: 250px;
+        margin: 0 30px 5px -25px;
+    }
+    .cart-text{
+        margin-left: -25px;
+    }
+  }

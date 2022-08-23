@@ -1,0 +1,48 @@
+.container{
+    width:70%;
+    text-align:center;
+    margin: 0 auto;
+    margin-top: 6%;
+}
+form{
+    border: 5px solid #c22727;
+    border-radius: 20px;
+    margin: 0 auto;
+    width: 70%;
+}
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+input{
+    width: 66%;
+    height: 40px;
+    border: none;
+    background-color: #ECECEC;
+    border-radius: 10px;
+}
+.btn-submit{
+    border: none;
+    border-radius: 15px;
+    width: 40%;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+@keyframes rotate {
+    from{ transform: rotate(-360deg);}
+    to{ transform: rotate(360deg);}
+}
+.home_button{
+    display: flex;
+    font-size: 35px;
+    cursor: pointer;
+}
+.acc{
+    margin-top: -10px;
+}
